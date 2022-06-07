@@ -14,11 +14,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.springframework.transaction.annotation.Transactional1;
+import org.springframework.transaction.annotation.Transactional;
 
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers1;
-
-@SpringBootTesting 1
+@SpringBootTest
 @AutoConfigureMockMvc
 @RunWith(SpringRunner.class)
 class SpringappApplicationTests {
